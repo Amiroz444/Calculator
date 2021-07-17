@@ -1,0 +1,58 @@
+body{
+    background-color: grey;
+}
+
+.container{
+    width: 250px;
+    height: 357px;
+    margin: 80px auto;
+    border-radius: 10px;
+    background: rgb(214, 214, 214);
+    box-shadow: 5px 5px 10px rgb(37, 37, 37), -5px -5px 10px rgb(37, 37, 37);
+}
+
+.cal-box{
+    width: 200px;
+    margin: 20px auto;
+}
+
+#display{
+    border: none;
+    outline: none;
+    color: black;
+    text-align: right;
+    font-weight: 600;
+    padding: 15px;
+    margin: 30px 0 20px 0;
+    background: transparent;
+    box-shadow: inset 2px 2px 5px #7c7c80, inset -5px -5px 10px #b1b1b8;
+}
+
+.button{
+    margin: 15px 0 0 5px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    background: rgb(214, 214, 214);
+    box-shadow: 5px 5px 10px #8b8585, -5px -5px 10px #8b8585;
+    display: inline-block;
+}
+
+.button:active{
+    box-shadow: inset 1px 1px 2px #babeec, inset -1px -1px 2px #ffffff;
+}
+
+.clearbutton{
+    background: red;
+    color: white;
+}
+
+.mathbutton{
+    background: black;
+    color: white;
+}
